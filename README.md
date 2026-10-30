@@ -4,13 +4,13 @@
 
 The prototype has been turned into a standalone static website suitable for GitHub Pages. It preserves the supplied lesson, recording, biography, portfolio, studio, tuition, and enrollment content. The missing stylesheet and script have been created. The unavailable logo has been replaced with a text wordmark.
 
-The website is published on GitHub Pages in `dblackburnmusic-maker/blackburn-music-studio`. The custom domain is `blackburnmusicstudio.com`. Namecheap DNS has been configured for the root and www domains; HTTPS activation is being verified. Recording inquiries use dblackburnmusic@gmail.com for now; this can be updated later. Spotify and My Music Staff are external services; confirm both playlists and the enrollment form work before publishing.
+The website is published on GitHub Pages in `dblackburnmusic-maker/blackburn-music-studio`. The custom domain is `blackburnmusicstudio.com`. Namecheap DNS has been configured for the root and www domains; HTTPS activation is being verified. Recording inquiries use daniel@blackburnmusicstudio.com for now; this can be updated later. Spotify and My Music Staff are external services; confirm both playlists and the enrollment form work before publishing.
 
 ## What to provide
 
 1. GitHub owner: `dblackburnmusic-maker`. Recommended repository name: `blackburn-music-studio`. Provide an existing repository URL if one exists.
 2. Domain registrar: Namecheap. Confirm the domain uses Namecheap DNS or identify the external DNS provider.
-3. Current public inquiry address: `dblackburnmusic@gmail.com`. Provide the replacement when ready.
+3. Current public inquiry address: `daniel@blackburnmusicstudio.com`. Provide the replacement when ready.
 4. The original logo, preferably PNG with transparency or SVG. If available, send the original `styles.css`, `script.js`, and `assets` folder too so the original prototype design can be matched.
 5. Confirmation that the $160 monthly tuition, calendar description, makeup policy, biography, playlists, and enrollment link are approved for public use.
 
