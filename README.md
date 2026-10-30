@@ -4,7 +4,7 @@
 
 The prototype has been turned into a standalone static website suitable for GitHub Pages. It preserves the supplied lesson, recording, biography, portfolio, studio, tuition, and enrollment content. The missing stylesheet and script have been created. The unavailable logo has been replaced with a text wordmark.
 
-The website is not published yet. Recording inquiries use dblackburnmusic@gmail.com for now; this can be updated later. Spotify and My Music Staff are external services; confirm both playlists and the enrollment form work before publishing.
+The website is published on GitHub Pages in `dblackburnmusic-maker/blackburn-music-studio`. The custom domain is `blackburnmusicstudio.com`. Namecheap DNS has been configured for the root and www domains; HTTPS activation is being verified. Recording inquiries use dblackburnmusic@gmail.com for now; this can be updated later. Spotify and My Music Staff are external services; confirm both playlists and the enrollment form work before publishing.
 
 ## What to provide
 
@@ -103,3 +103,7 @@ Namecheap guide: https://www.namecheap.com/support/knowledgebase/article.aspx/96
 ## Finished website design
 
 The site now includes a warm ivory, deep green, and copper theme; an original typographic monogram; responsive lesson cards; a photo viewer; expandable FAQs; and direct enrollment with an optional inline My Music Staff form. Fonts are loaded from Google Fonts with local serif and sans-serif fallbacks. FAQs use the supplied business details. The original logo and an approved portrait of Daniel can replace the current branding and biography treatment later. No form submissions are handled by this static site.
+
+## Domain setup — October 30, 2026
+
+Both `blackburnmusicstudio.com` and `blackburndrums.com` now use the four GitHub Pages A records, and each www CNAME points to `dblackburnmusic-maker.github.io`. Zoho MX, SPF, DKIM, and verification records for the studio domain were preserved. The old domain uses a separate GitHub Pages repository, `dblackburnmusic-maker/blackburndrums-redirect`, which redirects in the browser to `https://blackburnmusicstudio.com/`. It includes canonical metadata, immediate meta refresh, JavaScript location.replace, and a manual fallback link. It is not an HTTP 301 redirect. GitHub manages HTTPS certificates for each repository.
